@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  servicehealthapi:
+    image: servicehealthapi
+    build: .
+    ports:
+      - 8050:8050
